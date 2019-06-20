@@ -10,7 +10,7 @@ body{
 
 
 .container{
-    width: 80%;
+  
     margin: 0 auto;
     padding: auto;
 }
@@ -18,10 +18,9 @@ body{
 header{
 background:#ffffff;
 
-
-
-
 }
+
+
 
 header::after{
 content: '';
@@ -38,8 +37,9 @@ clear: both;
     float: left;
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    padding: 10px 0;
+    padding: 17px;
     font-weight: bold;
+    margin-left:151px;
 }
 
 nav{
@@ -47,7 +47,6 @@ nav{
 }
 
 nav ul{
-    margin: 0;
     padding:10px 10px;
 }
 
@@ -58,14 +57,16 @@ nav a{
 
 nav li{
     display: inline-block;  
-    margin-left:70px;
+    margin-left:-60px;
+    padding-right: 150px;
 }
 
 .content{
-border-style: solid 1px; 
-border:1px solid #cccccc;
 
+width:960px;
 text-align: left;
+margin-left:auto;
+margin-right:auto;
 }
 
 img {
@@ -73,11 +74,10 @@ img {
     float: left;
     padding-right: 20px; 
     padding-bottom: 20px;
+    padding-top:20px;
    
     
 }
-
-
 
 
 div .paragraph{
@@ -94,12 +94,15 @@ color:#6b6a6a;
 
 h2{
     padding:left 30px;
+    background:#ffffff;
 }
  #u {
     color:#4aaaa5;
-    border-bottom: #666666 1px solid;
-    padding: bottom 20px;
+    background:#ffffff;
+    border-bottom: #f1f0f0 1px solid;
     text-align: left;
+    margin-bottom:0;
+    padding: 20px;
 }
 
 
@@ -108,26 +111,58 @@ background: #666666;
 color: #c7c0c0;
 text-align: center;
 padding:20px 20px;
+clear:left;
+;
 
 }
 
  
+ .iportfolio{
+    width: 960px;
+    height:400px;
 
-.portfolio{
- height:300px;
- 
 }
 
 #port{
+background:#ffffff;
 color:#4aaaa5;
-border-bottom: #666666 1px solid;
+border-bottom: #f1f0f0 1px solid;
+text-align: left;
+margin-bottom:0;
+padding: 20px;
+
 }
 
 #cont{
-    color:#4aaaa5;
-    border-bottom: #666666 1px solid;
-    }
+background: #ffffff;
+color:#4aaaa5;
+border-bottom: #f1f0f0 1px solid;
+text-align: left;
+margin-bottom:0;
+padding: 20px;
+}
 
-    form{
-        width: 70%;
-    }
+form{
+padding: 25px;
+background:white;
+}
+
+input{
+width: 70%;
+height:25px;
+}
+
+textarea{
+width: 70%;
+height:150px;
+}
+
+button {
+background-color: #4CAF50; 
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+font-size: 16px;
+}
